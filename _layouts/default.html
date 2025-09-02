@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title }} · {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a href="{{ '/' | relative_url }}">SideFund</a></div>
+      <div>
+        <a href="{{ '/' | relative_url }}" class="{% if page.active == 'home' %}active{% endif %}">Portfolio</a>
+        <a href="{{ '/portfolio' | relative_url }}" class="{% if page.active == 'portfolio' %}active{% endif %}">Deals</a>
+        <a href="{{ '/blog' | relative_url }}" class="{% if page.active == 'blog' %}active{% endif %}">LP Letter</a>
+        <a href="{{ '/about' | relative_url }}" class="{% if page.active == 'about' %}active{% endif %}">About</a>
+      </div>
+    </div>
+    {{ content }}
+    <div class="footer">© {{ site.title }} · Built like a VC, shipped like a maker.</div>
+  </div>
+</body>
+</html>

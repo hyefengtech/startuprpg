@@ -1,0 +1,30 @@
+- id: S-001
+  name: Startup RPG
+  stage: Seed
+  problem: 사람을 설득하지 않고 유입시키는 구조
+  value: 퀘스트 기반 유입·피드백 루프
+  status: 활성
+  tags: 유입, 피드백, 커뮤니티
+  cta_label: 퀘스트 보기
+  cta_url: https://example.com/startup-rpg
+  case_url: 
+- id: S-002
+  name: IdeaLoop
+  stage: Pre-seed
+  problem: 입력 3칸으로 아이디어 조합과 실행계획 도출
+  value: 수동 운영→자동화 전환이 쉬운 구조
+  status: 활성
+  tags: 아이디어, 자동화, MVP
+  cta_label: 아이디어 받기
+  cta_url: https://example.com/idealoop
+  case_url: 
+- id: S-003
+  name: Maker Log Desk
+  stage: Archive
+  problem: 혼자 만드는 사람의 지속 동력 부족
+  value: 주간 체크인·회고·성과 점수
+  status: 보류
+  tags: 생산성, 루틴, 회고
+  cta_label: 로그 샘플
+  cta_url: https://example.com/makerlog
+  case_url:

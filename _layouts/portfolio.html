@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="section">
+  <h1>Portfolio</h1>
+  <p class="meta">아이디어에 투자하고, 실험으로 검증한 프로젝트들.</p>
+  <div class="grid">
+  {% for p in site.data.portfolio %}
+    <div class="card">
+      <span class="badge">{{ p.stage }}</span>
+      <h3>{{ p.name }}</h3>
+      <p class="meta">{{ p.problem }}</p>
+      <p>핵가치: {{ p.value }}</p>
+      <p class="meta">상태: {{ p.status }} · 태그: {{ p.tags }}</p>
+      <div class="cta">
+        {% if p.cta_url %}<a class="button" href="{{ p.cta_url }}" target="_blank" rel="noopener">{{ p.cta_label | default: "체험하기" }}</a>{% endif %}
+        {% if p.case_url %}<a class="button secondary" href="{{ p.case_url }}" target="_blank" rel="noopener">케이스 읽기</a>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>

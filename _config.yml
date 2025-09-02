@@ -1,0 +1,12 @@
+title: SideFund · 1인 VC Portfolio
+description: 아이디어에 투자하고, 실험으로 증명합니다.
+baseurl: ""
+url: ""
+theme: null
+markdown: kramdown
+collections:
+  posts:
+    output: true
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+plugins: []
