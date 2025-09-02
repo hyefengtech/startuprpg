@@ -1,7 +1,7 @@
 title: SideFund · 1인 VC Portfolio
 description: 아이디어에 투자하고, 실험으로 증명합니다.
-baseurl: ""
-url: ""
+baseurl: "/startuprpg"          
+url: "https://tech.worldplay.kr"
 theme: null
 markdown: kramdown
 collections:
